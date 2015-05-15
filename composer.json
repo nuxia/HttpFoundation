@@ -1,15 +1,14 @@
 {
-    "name": "nuxia/tools",
+    "name": "nuxia/http-foundation",
     "license": "MIT",
     "type": "php-component",
-    "description": "Miscellaneous php tools",
+    "description": "Extra features for symfony/http-foundation",
     "autoload": {
-        "psr-4": { "Nuxia\\Component\\Tools\\": ""}
+        "psr-4": { "Nuxia\\Component\\HttpFoundation\\": ""}
     },
     "require": {
-        "php": ">=5.4",
-        "behat/transliterator": "~1.0",
-        "doctrine/inflector": "~1.0"
+        "php": ">=5.4"
+        "symfony/http-foundation": "~2.3"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0"
